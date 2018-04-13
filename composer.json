@@ -1,5 +1,5 @@
 {
-    "name": "php-pm/httpkernel-adapter",
+    "name": "wanghanlin/php-pm-httpkernel-adapter",
     "license": "MIT",
     "require": {
         "php-pm/php-pm": "^1.0",
