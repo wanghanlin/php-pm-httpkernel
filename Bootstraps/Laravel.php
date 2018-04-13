@@ -35,8 +35,8 @@ class Laravel implements BootstrapInterface, HooksInterface, RequestClassProvide
     {
         $this->appenv = $appenv;
         $this->debug = $debug;
-        putenv("APP_DEBUG=" . ($debug ? 'true' : 'false'));
-        putenv("APP_ENV=" . $this->appenv);
+        // putenv("APP_DEBUG=" . ($debug ? 'true' : 'false'));
+        // putenv("APP_ENV=" . $this->appenv);
     }
 
     /**
